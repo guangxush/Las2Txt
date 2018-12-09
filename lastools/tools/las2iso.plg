@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: las2iso - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\inc" /I "..\stl" /I "..\src" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Release/las2iso.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\released_code\lastools\tools\src\fopengzipped.cpp"
+"C:\released_code\lastools\tools\src\las2iso.cpp"
+"C:\released_code\lastools\tools\src\predicates.cpp"
+"C:\released_code\lastools\tools\src\triangulate.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C5.tmp" 
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C6.tmp" with contents
+[
+../lib/LASlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/las2iso.pdb" /machine:I386 /out:"Release/las2iso.exe" 
+.\Release\fopengzipped.obj
+.\Release\las2iso.obj
+.\Release\predicates.obj
+.\Release\triangulate.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C6.tmp"
+<h3>Output Window</h3>
+Compiling...
+fopengzipped.cpp
+las2iso.cpp
+predicates.cpp
+triangulate.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C8.bat" with contents
+[
+@echo off
+copy Release\las2iso.exe ..\bin\las2iso.exe
+]
+Creating command line "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C8.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+las2iso.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

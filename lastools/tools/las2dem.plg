@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: las2dem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3BF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\inc" /I "..\src" /I ".\src\sr_api" /I ".\src\jpg_api" /I ".\src\png_api" /I ".\src\zlib_api" /I ".\src\geotiff_api" /I ".\src\tiff_api" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Release/las2dem.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\released_code\lastools\tools\src\fopengzipped.cpp"
+"C:\released_code\lastools\tools\src\sr_api\geoprojectionconverter.cpp"
+"C:\released_code\lastools\tools\src\las2dem.cpp"
+"C:\released_code\lastools\tools\src\predicates.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srbufferinmemory.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srbufferrowbands.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srbufferrows.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srbuffersimple.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srbuffertiles.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwriteopener.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwriter_bil.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwriter_jpg.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwriter_png.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwriter_tif.cpp"
+"C:\released_code\lastools\tools\src\sr_api\srwritetiled.cpp"
+"C:\released_code\lastools\tools\src\triangulate.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3BF.tmp" 
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C0.tmp" with contents
+[
+../lib/LASlib.lib ./src/jpg_api/libjpeg.lib ./src/png_api/libpng.lib ./src/zlib_api/zlib.lib ./src/tiff_api/tiff.lib ./src/geotiff_api/geotiff.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/las2dem.pdb" /machine:I386 /out:"Release/las2dem.exe" 
+.\Release\fopengzipped.obj
+.\Release\geoprojectionconverter.obj
+.\Release\las2dem.obj
+.\Release\predicates.obj
+.\Release\srbufferinmemory.obj
+.\Release\srbufferrowbands.obj
+.\Release\srbufferrows.obj
+.\Release\srbuffersimple.obj
+.\Release\srbuffertiles.obj
+.\Release\srwriteopener.obj
+.\Release\srwriter_bil.obj
+.\Release\srwriter_jpg.obj
+.\Release\srwriter_png.obj
+.\Release\srwriter_tif.obj
+.\Release\srwritetiled.obj
+.\Release\triangulate.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C0.tmp"
+<h3>Output Window</h3>
+Compiling...
+fopengzipped.cpp
+geoprojectionconverter.cpp
+las2dem.cpp
+predicates.cpp
+srbufferinmemory.cpp
+srbufferrowbands.cpp
+srbufferrows.cpp
+srbuffersimple.cpp
+srbuffertiles.cpp
+srwriteopener.cpp
+srwriter_bil.cpp
+srwriter_jpg.cpp
+srwriter_png.cpp
+srwriter_tif.cpp
+srwritetiled.cpp
+triangulate.cpp
+Linking...
+   Creating library Release/las2dem.lib and object Release/las2dem.exp
+Creating temporary file "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C4.bat" with contents
+[
+@echo off
+copy Release\las2dem.exe ..\bin\las2dem.exe
+]
+Creating command line "C:\DOCUME~1\ISENBU~1.ISE\LOCALS~1\Temp\RSP3C4.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+las2dem.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
